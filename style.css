@@ -1,6 +1,7 @@
 *, *::before, *::after{
     box-sizing: border-box;
     font-family: Gotham Rounded; /*Tu wybieram czcionkę*/
+    font-size:x-large; /*Rozmiar czcionki*/
 }
 
 body {
@@ -20,7 +21,9 @@ body {
 
 .container {
     width: 800px;
-    max-width: 90%;
+    height: 250px;
+    max-width: 95%;
+    max-height: 20%;
     color: red;
     background-color: black;
     padding: 10px;
